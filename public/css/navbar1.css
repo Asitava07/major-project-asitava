@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .navbar {
+    position: sticky;
+    top: 0;
+    height: 7vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 0, 19, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo h2 {
+    color: #ffffff;
+    padding: 0 20px;
+    padding-top: 15px;
+}
+
+.navbar-nav {
+    padding: 0 5px;
+}
+
+.navbar-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    margin-top: 12px;
+}
+
+.navbar-nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 18px;
+}
+
+.navbar-nav ul li {
+    color: #ffffff;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.navbar-nav ul li:hover {
+    color: skyblue;
+}
+
+.navbar-nav ul li i:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+/*  */
+/* .navbar-nav ul a li {
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 18px;
+} */
+
+.navbar-nav ul a li:hover {
+    /* border-bottom: 2px solid #ffffff; */
+    color: skyblue;
+}
+
+.navbar-nav ul a li i:hover {
+    /* border-bottom: 2px solid #ffffff; */
+    background-color: skyblue;
+    color: white;
+}
+
+.navbar-nav ul li i {
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 5px 7px;
+    margin-right: 5px;
+    color: #000000;
+}
+
+.navbar-nav ul .notification {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.navbar-nav ul .notification i:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.navbar-nav ul .settings {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.navbar-nav ul .settings i:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.navbar-nav ul .logout {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.navbar-nav ul .logout i:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.navbar-nav ul li .nav-icon img {
+    height: 10px;
+    width: 10px;
+}
+
+.notification-sidemenu {
+    height: 100vh;
+    width: 300px;
+    margin-top: 7vh;
+    margin-left: 81vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    visibility: hidden;
+    position: fixed;
+}
+
+.notification-sidemenu h3 {
+    padding: 20px 50px;
+    background-color: rgba(238, 174, 202, 1);
+}
+
+.notification-sidemenu ul {
+    padding: 10px 30px;
+}
+
+.notification-sidemenu ul li {
+    margin-bottom: 20px;
+}
+
+.notification-sidemenu .cancel {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 15px;
+    background-color: rgba(238, 174, 202, 1);
+}
+
+.open-sidemenu {
+    visibility: visible;
+}
+
+/* settings dropdown */
+.settings-dropdown {
+    height: 120px;
+    width: 150px;
+    background: white;
+    border-radius: 12px;
+    margin-top: 7vh;
+    margin-left: 80vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    visibility: hidden;
+    position: fixed;
+}
+
+.settings-dropdown ul {
+    padding: 20px;
+}
+
+.settings-dropdown ul li {
+    margin-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.settings-dropdown .cancel {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.open-dropdown {
+    visibility: visible;
+}
+
+/* logout confirmation box */
+.confirm {
+    height: 300px;
+    width: 400px;
+    background: transparent;
+    margin-top: 30vh;
+    margin-left: 44vw;
+    visibility: hidden;
+    position: fixed;
+    border-radius: 12px;
+}
+
+/* for logout.js */
+.open-popup {
+    visibility: visible;
+}
+
+.confirm .title1 {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 12px 20px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.confirm .title1 p {
+    margin-left: 25%;
+}
+
+.confirm .option1 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.confirm .option1 .img img {
+    margin: 10px 160px;
+    height: 80px;
+    width: 80px;
+}
+
+.confirm .option1 .y-n {
+    margin-left: 30%;
+}
+
+.confirm .option1 button .yes {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.confirm .option1 button {
+    background-color: rgba(219, 28, 28, 0.8);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.signup {
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    background-color: #ffffff;
+    padding: 30px 50px;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 15px;
+    background: rgb(199, 10, 115);
+    background: linear-gradient(37deg, rgba(199, 10, 115, 1) 13%, rgba(255, 255, 255, 1) 98%);
+    visibility: hidden;
+    position: fixed;
+}
+
+.open-popup1 {
+    visibility: visible;
+}
+
+.signup_error {
+    margin: 5px 200px;
+    color: crimson;
+}
+
+.signup .title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 0 30px;
+}
+
+.signup .title .cross i {
+    font-size: 35px;
+}
+
+.signup .title .cross i:hover {
+    color: crimson;
+}
+
+.signup .form {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+.signup .form form {
+    border-right: 2px solid;
+    padding: 0 30px;
+}
+
+.signup .form form input {
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.signup .form form input[type=submit] {
+    background-color: rgb(12, 12, 199);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.extra {
+    margin-top: 80px;
+}
+
+.extra p {
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.extra .social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.extra .social img {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+.extra .social .facebook {
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+}
+
+.login {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 50px 80px;
+    margin-top: 10%;
+    margin-left: 38%;
+    border-radius: 15px;
+    background: rgb(178, 10, 199);
+    background: linear-gradient(37deg, rgba(178, 10, 199, 1) 13%, rgba(255, 255, 255, 1) 98%);
+    visibility: hidden;
+    position: fixed;
+    overflow: hidden;
+}
+
+.open-popup2 {
+    visibility: visible;
+}
+
+.login .title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.login .title .cross i {
+    font-size: 20px;
+}
+
+.login .title .cross i:hover {
+    color: crimson;
+}
+
+.login_error {
+    margin: 5px 200px;
+    color: crimson;
+}
+
+.login .form {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .form form {
+    border-bottom: 2px solid;
+}
+
+.login .form form a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 12px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.login .form form input {
+    width: 200px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.login .form form input[type=submit] {
+    background-color: rgb(12, 12, 199);
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.login .extra {
+    margin-top: 30px;
+}
+
+.extra p {
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.extra .social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.extra .social img {
+    height: 40px;
+    width: 40px;
+}
+
+.extra .social .facebook {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+*/ body::-webkit-scrollbar {
+    display: none;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(25, 18, 122, 0.4);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    font-size: 10rem;
+}

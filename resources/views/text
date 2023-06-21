@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <img src="images/logo_lightmode.png" alt="" />
+            <ul>
+                <a href="/index">
+                    <li class="underline_effect">Home</li>
+                </a>
+                <a href="/courses">
+                    <li class="underline_effect">Courses</li>
+                </a>
+                <a href="/index">
+                    <li class="underline_effect">Careers</li>
+                </a>
+                <a href="/blog">
+                    <li class="underline_effect">Blog</li>
+                </a>
+                <a href="/aboutus">
+                    <li class="underline_effect">About Us</li>
+                </a>
+                <a href="/login">
+                    <li class="underline_effect">Login</li>
+                </a>
+                <li><i class="fa-solid fa-sun yellow_text"></i></li>
+            </ul>
+            <div class="navbar_hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="scrollup">
+            <i class="fa-solid fa-chevron-up fa-lg"></i>
+        </div>
+        <div class="home_1">
+            <div class="home_1_info">
+                <p class="home_1_title">LearningBee</p>
+                <p class="home_1_title_tagline">Buzzing with Knowledge</p>
+                Welcome to Learning Bee, the online learning platform that
+                empowers you to achieve your full potential. At Learning Bee, we
+                believe that education should be accessible to everyone, no
+                matter where you are or what your background is.
+            </div>
+            <img src="images/online_study.svg" alt="" />
+        </div>
+        <div class="home_5">
+            <div class="home__title_info">
+                <p class="home_5_title">Explore Courses</p>
+            </div>
+            <div class="home_5_section">
+                <div key="{course.id}" class="home_5_section_main">
+                    <div class="home_5_section_main_img">
+                        <h1>HELP</h1>
+                        <img
+                            src="https://images.pexels.com/photos/16475925/pexels-photo-16475925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt=""
+                        />
+                    </div>
+                    <div class="home_5_section_main_content">
+                        <h1>AWS</h1>
+                        <p>Dfjhsijfgn DEscription</p>
+                        <span>Rating:4/5</span>
+                        <p>$200</p>
+                        <button>Apply Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="home_5_see">
+                <button>See All</button>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="home_2">
+            <div class="home__title_info">
+                <p class="home_2_title">Our Success</p>
+                <p>
+                    Since its launch, Learning Bee has achieved remarkable
+                    success in helping learners from all backgrounds and levels
+                    achieve their learning goals. <br />
+                    We are proud to have formed partnerships with leading
+                    organizations and industry experts, further enhancing the
+                    quality and value of our courses.
+                </p>
+            </div>
+            <div class="home_2_stats">
+                <div class="home_2_stats_info">
+                    15
+                    <p>Students</p>
+                </div>
+                <div class="home_2_stats_info">
+                    75
+                    <p>Total Success</p>
+                </div>
+                <div class="home_2_stats_info">
+                    35
+                    <p>Main Questions</p>
+                </div>
+                <div class="home_2_stats_info">
+                    36
+                    <p>Chief Experts</p>
+                </div>
+                <div class="home_2_stats_info">
+                    16
+                    <p>Years of Experience</p>
+                </div>
+            </div>
+        </div>
+        <div class="home_3">
+            <div class="home__title_info">
+                <p class="home_3_title">
+                    All-In-One <br /><span class="half_text_color font_size7"
+                        >E-Learning Platform</span
+                    >
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur, quaerat. Incidunt, maxime excepturi molestias
+                    ratione vitae dolorem quia dolore necessitatibus laborum
+                    praesentium? Fuga unde eum quisquam tempore quod eos quos!
+                </p>
+            </div>
+            <div class="home_3_card">
+                <div class="home_3_card_info">
+                    <span class="home_3_round"
+                        ><i class="fa-solid fa-file-invoice"></i
+                    ></span>
+                    <h1>Online,Billing,Invoicing,& Contracts</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur, quaerat. Incidunt, maxime excepturi molestias
+                        ratione vitae dolorem quia dolore necessitatibus laborum
+                        praesentium?
+                    </p>
+                </div>
+                <div class="home_3_card_info">
+                    <span class="home_3_round"
+                        ><i class="fa-solid fa-calendar-days"></i
+                    ></span>
+                    <h1>Online,Billing,Invoicing,& Contracts</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur, quaerat. Incidunt, maxime excepturi molestias
+                        ratione vitae dolorem quia dolore necessitatibus laborum
+                        praesentium?
+                    </p>
+                </div>
+                <div class="home_3_card_info">
+                    <span class="home_3_round"
+                        ><i class="fa-solid fa-face-smile"></i
+                    ></span>
+                    <h1>Online,Billing,Invoicing,& Contracts</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pariatur, quaerat. Incidunt, maxime excepturi molestias
+                        ratione vitae dolorem quia dolore necessitatibus laborum
+                        praesentium?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="home_4">
+            <div class="home__title_info">
+                <p class="home_4_title">
+                    Features of
+                    <span class="half_text_color font_size7"
+                        >Learning Bee?</span
+                    >
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    quos natus voluptatibus pariatur dicta. Suscipit eos nobis
+                    tempora ea harum adipisci nemo? Quaerat placeat sunt
+                    sapiente dolor neque tempora eum.
+                </p>
+            </div>
+            <div class="home_4_section">
+                <div class="home_4_section_info">
+                    <h1>
+                        A <span class="red_text font_size3">Wide Range</span> of
+                        Courses:
+                    </h1>
+                    <p>
+                        Learning Bee offers a diverse range of courses across
+                        various industries, ensuring that learners can find the
+                        course that suits their learning needs and career
+                        aspirations.
+                    </p>
+                </div>
+                <div class="home_4_section_img">
+                    <div class="home_4_section_img_main">
+                        <span></span>
+                        <span></span>
+                        <img
+                            src="https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="home_4_section">
+                <div class="home_4_section_info">
+                    <h1>
+                        <span class="red_text font_size3">Personalized</span>
+                        Learning:
+                    </h1>
+                    <p>
+                        Learning Bee understands that everyone has a unique
+                        learning style and pace, which is why we offer
+                        personalized instruction and flexible scheduling to
+                        accommodate each learner's needs.
+                    </p>
+                </div>
+                <div class="home_4_section_img">
+                    <div class="home_4_section_img_main">
+                        <span></span>
+                        <span></span>
+                        <img
+                            src="https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="home_4_section">
+                <div class="home_4_section_info">
+                    <h1>
+                        <span class="red_text font_size3">Expert</span>
+                        Instructors:
+                    </h1>
+                    <p>
+                        Our instructors are industry experts with real-world
+                        experience, providing learners with the most relevant
+                        and up-to-date knowledge and skills.
+                    </p>
+                </div>
+                <div class="home_4_section_img">
+                    <div class="home_4_section_img_main">
+                        <span></span>
+                        <span></span>
+                        <img
+                            src="https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="home_4_see">
+                <button>See More Features</button>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="home_6">
+            <div class="home_6_info">
+                <h1>What They Say?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Dolorem tempore harum dolor eius optio.Lorem ipsum dolor sit
+                    amet consectetur, adipisicing elit. Dolorem tempore harum
+                    dolor eius optio.Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Dolorem tempore harum dolor eius optio.
+                </p>
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magni dolor quaerat deleniti voluptatibus, ratione
+                    provident. Delectus dolor nesciunt nulla itaque deleniti
+                    atque porro, hic animi fuga quis accusantium nemo eius!
+                </p>
+            </div>
+            <div class="home_6_review">
+                <div class="home_6_review_img">
+                    <img
+                        src="https://images.pexels.com/photos/4407688/pexels-photo-4407688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt=""
+                    />
+                </div>
+                <div class="home_6_review_main">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci, voluptas possimus. In possimus reiciendis,
+                        expedita, neque qui rerum officiis facilis sapiente
+                        voluptatibus quas temporibus explicabo porro eligendi
+                        dignissimos. Nihil, voluptas?
+                    </p>
+                    <p id="student_name">HAHAHAHAHAH</p>
+                </div>
+                <button><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_sec_1">
+                <div class="footer_sec_1_1">
+                    <img src="images/logo_darkmode.png" alt="" />
+                    <span class="footer_top_line"></span>
+                    <h1>The E-Learning Platform</h1>
+                </div>
+                <div class="footer_sec_1_2">
+                    <p>Follow Us:</p>
+                    <div class="follow">
+                        <div class="follow_main">
+                            <div class="follow_main_icon">
+                                <img
+                                    src="images/footer_icons/facebook.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="follow_main_info">Facebook</p>
+                        </div>
+                        <div class="follow_main">
+                            <div class="follow_main_icon">
+                                <img
+                                    src="images/footer_icons/instagram.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="follow_main_info">Instagram</p>
+                        </div>
+                        <div class="follow_main">
+                            <div class="follow_main_icon">
+                                <img
+                                    src="images/footer_icons/linkedin.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="follow_main_info">Linkedin</p>
+                        </div>
+                        <div class="follow_main">
+                            <div class="follow_main_icon">
+                                <img
+                                    src="images/footer_icons/twitter.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="follow_main_info">Twitter</p>
+                        </div>
+                        <div class="follow_main">
+                            <div class="follow_main_icon">
+                                <img
+                                    src="images/footer_icons/youtube.png"
+                                    alt=""
+                                />
+                            </div>
+                            <p class="follow_main_info">Youtube</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_sec_1_3">
+                    <p>Contact Us:</p>
+                    <div class="footer_sec_1_3_email">
+                        <p>Email:</p>
+                        <a href="mailto:learningbee@gmail.com">
+                            <p>learningbee@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="footer_sec_1_3_phone">
+                        <p>24x7 Phone:</p>
+                        <a href="tel:91+ 1231414245346">
+                            <p>1231414245346</p>
+                        </a>
+                    </div>
+                    <div class="footer_sec_1_3_address">
+                        <p>Address:</p>
+                        <p>
+                            Street:3834 Sundown Lane <br />
+                            City:Austin <br />
+                            State/province/area:Texas
+                        </p>
+                    </div>
+                    <button>Contact Us</button>
+                </div>
+            </div>
+            <div class="footer_sec_2">
+                <div class="footer_sec_2_1">
+                    <p>Subscribe to get our Newsletter</p>
+                    <div class="footer_mid_input">
+                        <input
+                            type="email"
+                            name="footer_email"
+                            class="footer_email"
+                            placeholder="Enter Your Email"
+                        />
+                        <button
+                            type="button"
+                            name="footer_button"
+                            class="footer_button"
+                        >
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </div>
+                <div class="footer_sec_2_2">
+                    <div class="footer_bottom">
+                        <p>Careers</p>
+                        <span class="footer_bottom_line"></span>
+                        <p>Privacy Policy</p>
+                        <span class="footer_bottom_line"></span>
+                        <p>Terms & Condition</p>
+                        <br /><br />
+                    </div>
+                    <div class="footer_bottom_copyright">
+                        <i class="fa-regular fa-copyright"></i>
+                        2023 Learning Bee Inc.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://kit.fontawesome.com/7755165d2a.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
+
+<!-- footer -->
+
+<footer class="footer">
+    <div class="footer_sec_1">
+        <div class="footer_sec_1_1">
+            <img src="images/logo_darkmode.png" alt="" />
+            <span class="footer_top_line"></span>
+            <h1>The E-Learning Platform</h1>
+        </div>
+        <div class="footer_sec_1_2">
+            <p>Follow Us:</p>
+            <div class="follow">
+                <div class="follow_main">
+                    <div class="follow_main_icon">
+                        <img src="images/footer_icons/facebook.png" alt="" />
+                    </div>
+                    <p class="follow_main_info">Facebook</p>
+                </div>
+                <div class="follow_main">
+                    <div class="follow_main_icon">
+                        <img src="images/footer_icons/instagram.png" alt="" />
+                    </div>
+                    <p class="follow_main_info">Instagram</p>
+                </div>
+                <div class="follow_main">
+                    <div class="follow_main_icon">
+                        <img src="images/footer_icons/linkedin.png" alt="" />
+                    </div>
+                    <p class="follow_main_info">Linkedin</p>
+                </div>
+                <div class="follow_main">
+                    <div class="follow_main_icon">
+                        <img src="images/footer_icons/twitter.png" alt="" />
+                    </div>
+                    <p class="follow_main_info">Twitter</p>
+                </div>
+                <div class="follow_main">
+                    <div class="follow_main_icon">
+                        <img src="images/footer_icons/youtube.png" alt="" />
+                    </div>
+                    <p class="follow_main_info">Youtube</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_sec_1_3">
+            <p>Contact Us:</p>
+            <div class="footer_sec_1_3_email">
+                <p>Email:</p>
+                <a href="mailto:learningbee@gmail.com">
+                    <p>learningbee@gmail.com</p>
+                </a>
+            </div>
+            <div class="footer_sec_1_3_phone">
+                <p>24x7 Phone:</p>
+                <a href="tel:91+ 1231414245346">
+                    <p>1231414245346</p>
+                </a>
+            </div>
+            <div class="footer_sec_1_3_address">
+                <p>Address:</p>
+                <p>
+                    Street:3834 Sundown Lane <br />
+                    City:Austin <br />
+                    State/province/area:Texas
+                </p>
+            </div>
+            <button>Contact Us</button>
+        </div>
+    </div>
+    <div class="footer_sec_2">
+        <div class="footer_sec_2_1">
+            <p>Subscribe to get our Newsletter</p>
+            <div class="footer_mid_input">
+                <input
+                    type="email"
+                    name="footer_email"
+                    class="footer_email"
+                    placeholder="Enter Your Email"
+                />
+                <button
+                    type="button"
+                    name="footer_button"
+                    class="footer_button"
+                >
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+        <div class="footer_sec_2_2">
+            <div class="footer_bottom">
+                <p>Careers</p>
+                <span class="footer_bottom_line"></span>
+                <p>Privacy Policy</p>
+                <span class="footer_bottom_line"></span>
+                <p>Terms & Condition</p>
+                <br /><br />
+            </div>
+            <div class="footer_bottom_copyright">
+                <i class="fa-regular fa-copyright"></i>
+                2023 Learning Bee Inc.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- COURSE MODAL -->
+<script>
+    const c = document.getElementById("coursemodal");
+
+    function openPopup() {
+        c.classList.add("open-popup");
+    }
+
+    function closePopup() {
+        c.classList.remove("open-popup");
+    }
+</script>
+
+onclick="openPopup()" onclick="closePopup()"
+<!-- BLOG MODAL -->
+<script>
+    const b = document.getElementById("blogmodal");
+
+    function openPopup() {
+        b.classList.add("open-modal");
+    }
+
+    function closePopup() {
+        b.classList.remove("open-modal");
+    }
+</script>
+onclick="openPopup()" onclick="closePopup()"
+
+<!-- userdashboard -->
+<a href="{{ url('userdetails') }}">
+    <li>
+        <i class="fa-sharp fa-solid fa-house"></i
+        ><span class="admindashboardnav_navbar_title">Profile</span>
+    </li>
+</a>
+<!-- admindashboard -->
+<a href="/ap">
+    <li>
+        <i class="fa-sharp fa-solid fa-house"></i
+        ><span class="admindashboardnav_navbar_title">Profile</span>
+    </li>
+</a>
+\
+
+<div class="blog_3">
+    <p>Related Blogs</p>
+    <div class="blog_3_section">
+        @foreach($display_blog as $dt)
+        <div class="blog_3_section_main">
+            <div class="blog_3_section_main_image">
+                {{$dt->image}}
+                <img src="{{ asset('uploads/blogs/'.$dt->image}}" alt="" />
+            </div>
+            <p>{{$dt->title}}</p>
+            <div class="blog_3_section_main_user">
+                <div class="blog_3_section_main_user_dp">
+                    <img src="images/logo_lightmode.png" alt="" />
+                </div>
+                <p>LearningBee🐝</p>
+            </div>
+            <p>{{$dt->description}}</p>
+        </div>
+        @endforeach
+        <div class="blog_3_pagination">
+            <button><i class="fa-solid fa-chevron-left"></i></button>
+            <button><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+</div>
+
+<!-- bootstrap css,js cdn -->
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+/>
+<script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+></script>
+
+//login $user = Userinfo::where('username', '=', $req->username)->first(); if
+($user) { if (Hash::check($req->password, $user->password)) {
+$req->session()->put('user', $user->username); return redirect("index"); } else
+{ return back()->with('fail', "Wrong password! Try again!"); } } else { return
+back()->with('fail', "This username doesn't exist!"); } if
+(Hash::check($req->password, $user->password)) { $req->session()->put('user',
+$user->username); else { return back()->with('fail', "This username doesn't
+exist!"); }
+
+<!-- .career_1 {
+    width: 100%;
+    height: 130vh;
+    /* background-color: #34b233; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .career_1_sec {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2vh;
+    background: url(https://www.pexels.com/@padrinan/);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .career_1_sec video {
+    width: 100%;
+    height: 80vh;
+  }
+  
+  
+  .career_1 h1 {
+    font-size: 7rem;
+    margin-top: 10vh;
+  } -->
